@@ -1,8 +1,9 @@
 int determine_check_scope(int *arr, int curr_idx, int *visible_count, int n);
 
+//traversal & backtracking
 int tracking(int *arr, int i, int *used_row, int *used_col, int n, int *visible_count){
         int digit=1;
-
+        //printf("Are we in Tracking?");
         //base case
         if(i==n*n)
                 return 1;
